@@ -113,5 +113,55 @@ public class Program
 
         #endregion
 
+        #region Exercise 3
+
+        //Dictionary<string, string> contacts = new Dictionary<string, string>
+        //{
+        //    { "Medo", "01005403213" },
+        //    { "Sara", "01353343257" },
+        //    { "Ali", "01000000000" },
+        //    { "Mona", "01000000001" }
+        //};
+
+        //contacts["Hassan"] = "01000000002";
+
+        //Console.WriteLine("---------------------------------------");
+
+        //try
+        //{
+        //    contacts.Add("Medo", "01005403213");
+        //}
+        //catch (ArgumentException ex)
+        //{
+        //    Console.WriteLine($"Error: {ex.Message}");
+        //}
+
+        //Console.WriteLine("---------------------------------------");
+
+        //bool added = contacts.TryAdd("Sara", "01000000003");
+        //Console.WriteLine($"TryAdd succeeded: {added}");
+
+        //Console.WriteLine("---------------------------------------");
+
+        //if (contacts.TryGetValue("Omar", out string omarNumber))
+        //{
+        //    Console.WriteLine($"Omar's number: {omarNumber}");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Omar not found in contacts.");
+        //}
+
+        //Console.WriteLine("---------------------------------------");
+
+        //string number = contacts.GetValueOrDefault("Omar", "Not Found");
+        //Console.WriteLine($"Omar's number (with fallback): {number}");
+
+        //Console.WriteLine("---------------------------------------");
+
+        //Console.WriteLine(string.Join(", ", contacts.Keys));
+        //Console.WriteLine(string.Join(", ", contacts.Values));
+
+        #endregion
     }
 }
