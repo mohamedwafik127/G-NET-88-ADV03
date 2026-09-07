@@ -163,5 +163,48 @@ public class Program
         //Console.WriteLine(string.Join(", ", contacts.Values));
 
         #endregion
+
+        #region Exercise 4
+
+        //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        //emails.Add("ahmed@test.com");
+        //emails.Add("AHMED@test.com");
+        //emails.Add("sara@test.com");
+        //emails.Add("Sara@Test.Com");
+
+        //Console.WriteLine("---------------------------------------");
+
+        //Console.WriteLine($"Count: {emails.Count}");
+        ////Only 2 are stored because the comparer is case insensitive, so "ahmed@test.com" and "AHMED@test.com" are treated as the same value, and same for the two Sara entries.
+
+        //HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+        //HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+
+        //Console.WriteLine("---------------------------------------");
+
+        //HashSet<int> unionResult = new HashSet<int>(setA);
+        //unionResult.UnionWith(setB);
+        //Console.WriteLine("Union: " + string.Join(", ", unionResult));
+
+        //Console.WriteLine("---------------------------------------");
+
+        //HashSet<int> intersectResult = new HashSet<int>(setA);
+        //intersectResult.IntersectWith(setB);
+        //Console.WriteLine("Intersect: " + string.Join(", ", intersectResult));
+
+        //Console.WriteLine("---------------------------------------");
+
+        //HashSet<int> exceptResult = new HashSet<int>(setA);
+        //exceptResult.ExceptWith(setB);
+        //Console.WriteLine("Except: " + string.Join(", ", exceptResult));
+
+        //Console.WriteLine("---------------------------------------");
+
+        //HashSet<int> subsetCheck = new HashSet<int> { 1, 2 };
+        //bool isSubset = subsetCheck.IsSubsetOf(setA);
+        //Console.WriteLine($"{{1,2}} is subset of Set A: {isSubset}");
+
+        #endregion
     }
 }
