@@ -64,5 +64,54 @@ public class Program
 
         #endregion
 
+        #region Exercise 2
+
+        //Dictionary<int, string> leaderboard = new Dictionary<int, string>
+        //{
+        //    { 200, "Sara" },
+        //    { 350, "Mona" },
+        //    { 500, "Ahmed" },
+        //    { 800, "Ali" }
+        //};
+
+        //foreach (var entry in leaderboard)
+        //{
+        //    Console.WriteLine($"Score: {entry.Key} || Player: {entry.Value}");
+        //}
+
+        //Console.WriteLine("---------------------------------------");
+
+        //var firstEntry = leaderboard.First();
+        //Console.WriteLine($"First entry:\nScore: {firstEntry.Key} || Player: {firstEntry.Value}");
+
+        //Console.WriteLine("---------------------------------------");
+
+        //if (leaderboard.ContainsKey(500))
+        //{
+        //    Console.WriteLine("Score 500 exists!");
+        //}
+        //else
+        //    Console.WriteLine("Score 500 does not exist.");
+
+        //Console.WriteLine("---------------------------------------");
+
+        //if (leaderboard.ContainsKey(999))
+        //{
+        //    Console.WriteLine(leaderboard[999]);
+        //}
+        //else
+        //    Console.WriteLine("Score 999 does not exist.");
+
+        //Console.WriteLine("---------------------------------------");
+
+        //Console.WriteLine("The updated list without the removed entry:");
+        //leaderboard.Remove(200);
+        //foreach (var entry in leaderboard)
+        //{
+        //    Console.WriteLine($"Score: {entry.Key} || Player: {entry.Value}");
+        //}
+
+        #endregion
+
     }
 }
